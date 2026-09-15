@@ -1,19 +1,19 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitRuggedCostume
-  name: брутальный костюм
-  description: Тёмный комплект, из грубых тканей. Слишком груб для официальных визитов, но идеально подходит для неформального отдыха с алкоголем.
+  name: rugged сostume
+  description: A dark outfit made of coarse fabrics. Too rough for formal visits, but perfect for a casual, alcohol-fueled get-together.
   components:
   - type: Sprite
     sprite: _LuaM/Clothing/Uniforms/Jumpsuit/ruggedcostume.rsi
   - type: Clothing
-    sprite: _LuaM/Clothing/Uniforms/Jumpsuits/ruggedcostume.rsi
+    sprite: _LuaM/Clothing/Uniforms/Jumpsuit/ruggedcostume.rsi
 
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitExpensiveCostume
-  name: дорогой костюм
-  description: Дорогостоящий двубортный комплект. Носить такой станет только психопат, или какой-нибудь особо тщеславный вице-президент.
+  name: expensive сostume
+  description: An expensive two-button suit. Only a psychopath or a particularly vain vice president would wear such a thing.
   components:
   - type: Sprite
     sprite: _LuaM/Clothing/Uniforms/Jumpsuit/expensivecostume.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGoodClownCostume
-  name: костюм хорошего клоуна
-  description: '"Яркий, далеко не новый костюм, созданный по прототипу костюма величайшего трагического комедианта, из когда-либо живших" — гласит рекламная бирка из внутреннего кармана.' 
+  name: good clown costume
+  description: '"A striking, far-from-new costume, created after the prototype of the costume worn by the greatest tragic comedian who ever lived" — reads the promotional tag from the inside pocket.' 
   components:
   - type: Sprite
     sprite: _LuaM/Clothing/Uniforms/Jumpsuit/goodclownsuit.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitEmeraldCostume
-  name: изумрудный костюм
-  description: Неплохой на вид, текстурный серый комплект, с блестящим галстуком изумрудного цвета. Носить только с подобающим по стоимости верхом.
+  name: emerald costume
+  description: A decent-looking, textured gray suit, with a shimmering emerald tie. Only to be worn with a matching top.
   components: 
   - type: Sprite
     sprite: _LuaM/Clothing/Uniforms/Jumpsuit/emeraldcostume.rsi
